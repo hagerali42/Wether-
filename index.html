@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>wether</title>
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/media.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+
+      </head>
+      <body>
+
+        <nav class="navbar navbar-expand-lg  py-5">
+          <div class="container w-75">
+            <div class="navbar-brand" href="#">
+              <div class="d-flex">
+                <img src="images/imge1.png" style="width: 60;height: 50;">
+              <div class="px-2 pt-3">
+                <h1 class="fs-6 text-white">Weather</h1>
+                <small  style="font-size: 0.7rem; color: #bfc1c8;;">tagline goes here</small>
+              </div>
+              </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item px-2">
+                  <a class="nav-link active px-4 " href="#">Home</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link px-4" href="#">News</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link px-4" href="#">Live cameras</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link px-4" href="#">Photos</a>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link px-4" href="#">Contact</a>
+                </li>
+        
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <section class="backimg">
+        <div class="container w-75 pt-5">
+         <div class="position-relative">
+          <input id="seaerch" class="form-control form-control-lg rounded-pill py-3 " type="text" placeholder="Find your location..." aria-label=".form-control-lg example">
+          <button id="seaerchbtn"type="button" class="   rounded-pill border-0 text-white  ">Find</button>
+         </div>
+        </div>
+        </section>
+
+        <section style="background-color: #262936;">
+          <div class="container w-75 pt-4 wrrr">
+            <div  id="wwwthw"class="row g-0">
+               <div class="col-md-4  ">
+
+                <div  class="weather1  rounded-start">
+                      <div class="px-1 py-1 header rounded-start" id="today" >
+                        <div class="d-flex justify-content-between py-2 px-2">
+                          <div id="is_day">nday</div>
+                          <div id="last_updated">26February</div>
+                          </div>
+
+                      </div>
+                      <div >
+                        <div id="place" class="px-1 fs-5" >Cairo</div>
+                        <div class=" p-3">
+                          <div class="fs-1"><span id="degree">20</span><sup>o</sup>C</div>
+                        
+                          <div class="forecast-icon">
+                              <img id="icon"src="" alt="" class="col-4">
+                              <div  id="text"style="color: #009ad8;">Partly cloudy</div>
+                              <span><img src="images/imge4.png" style="height: 20;width: 20; margin: 10;"><span id="wind_degree">20</span>%</span>
+                              <span><img src="images/imge5.png" style="height: 20;width: 20; margin: 10;"><span id="vis_km">18</span>km/h</span>
+                              <span><img src="images/imge6.png" style="height: 20;width: 20; margin: 10;"> <span id="wind_dir">East</span></span>
+                          </div>	
+                      
+                      </div>
+                      </div>
+                </div>
+               </div>
+               <div class="col-md-4 ">
+                <div  class="weather2  ">
+                      <div class="px-1 py-1 header "  >
+                        <div class="text-center py-2 px-2">
+                          <div id="is_dayN"></div>
+                          </div>
+                           
+                      </div>
+                      <div class="text-center ">
+                        <div class="p-1 m-1 ">
+                            <img id="iconN"src="" alt="" >
+                        </div>
+                        <div class="py-4 fs-1"><span id="degreeNC">20</span><sup>o</sup>C</div>
+                        <small><span class="fs-3" id="degreeNS">20</span><sup>o</sup></small>
+                        <div  id="textN"class="py-4 m-1 "style="color: #009ad8; ">Sunny</div>
+                    </div>
+                    
+                </div>
+               </div>
+               <div class="col-md-4  ">
+                <div  class="weather3  rounded-end">
+                      <div class=" py-1 header rounded-start" id="thredday" >
+                        <div class="text-center py-2 px-2">
+                          <div id="is_dayNN"></div>
+                          </div>
+
+                      </div>
+                      <div class="text-center ">
+                        <div class="p-1 m-1 ">
+                            <img id="iconNN"src="" alt="" >
+                        </div>
+                        <div class="py-4 fs-1"><span id="degreeNCN">20</span><sup>o</sup>C</div>
+                        <small><span class="fs-3" id="degreeNSN">20</span><sup>o</sup></small>
+                        <div  id="textNN"class="py-4 m-1 "style="color: #009ad8; ">Sunny</div>
+                    </div>
+                     
+                </div>
+               </div>
+               
+            </div>
+
+          </div>
+        </section>
+        <section>
+          <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="position-relative my-3">
+                    <input  class="form-control form-control-lg rounded-pill py-2" type="text" placeholder="Enter your email to subscribe..." aria-label=".form-control-lg example">
+                    <button id="se"type="button" class=" rounded-pill border-0 text-white p-2 ">Subscribe</button>
+                   </div>
+                </div>
+                <div class="col-md-3 ">
+                  <div class="social d-flex justify-content- align-items-center pt-3 px-5">
+
+                    <div class="icon rounded-circle d-flex justify-content-center  align-items-center mx-2 ">
+                      <i class="fa-brands fa-facebook-f "></i>
+                    </div>
+                    <div class="icon rounded-circle d-flex justify-content-center align-items-center mx-2 ">
+                      <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="icon rounded-circle d-flex justify-content-center align-items-center mx-2  ">
+                      <i class="fa-brands fa-google"></i>
+                    </div>
+                    <div class="icon rounded-circle d-flex justify-content-center align-items-center mx-2 ">
+                      <i class="fa-brands fa-pinterest-p"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <p class="fa-1x pb-5 pt-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+          </footer>
+        </section>
+
+
+
+        <script src="js/jquery-3.6.3.min.js"></script>
+        <script src="js/main.js"type="module"></script>
+      </body>
+ </html>

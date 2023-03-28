@@ -1,0 +1,85 @@
+
+body {
+   
+    color: #bfc1c8;
+    font-family: sans-serif;
+    background-color:#262936 ;
+}
+.navbar{
+    background-color: #1e202b;
+}
+.navbar a{
+    border: 2px solid transparent;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 5px 15px;
+    color:white;
+}
+.navbar .nav-link.active {
+    border: 2px solid #009ad8;
+    color: #009ad8; 
+}
+.navbar a:hover{
+    border: 2px solid #009ad8;
+    color: #009ad8; 
+}
+.backimg{
+ height:60vh;
+ background-image: url(../images/imge2.png);
+ background-size: cover;
+}
+button{
+    
+    background-color: #009ad8; 
+}
+.form-control:focus ,.form-control{
+    position: relative;
+    border: none;
+    background-color: #1e202b;
+    box-shadow: none;
+    color: white;
+
+}
+::placeholder{
+    background-color: #1e202b;
+    color:#1e202b
+}
+#seaerchbtn,#se{
+    position: absolute;
+    padding: 0.7rem 1.5rem;
+    top: 10%;
+    right: 1%;
+}
+.wrrr{
+    margin-top: 20;
+    position: relative;
+   top: -150;
+}
+.weather1,.weather3{
+    background-color: #323544;
+ 
+}
+.weather2{
+    background-color: #262936;
+}
+#today,#thredday{
+    background-color: #2d303d;
+}
+#nextday{
+    background-color: #222530
+}
+.footer{
+    background-color: #262936
+}
+.icon{
+ width: 35px;
+ height: 35px;
+ background-color: #1e202b;
+ color: #009ad8;
+ transition:all 1s  ;
+
+}
+.icon:hover{
+    background-color: #009ad8;
+    color: #fff;
+}
